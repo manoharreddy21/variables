@@ -1,0 +1,21 @@
+# java 
+Data types:
+Dynamic data type language
+Two types in dynamic datatype:
+1.	Primitive data type
+2.	Non-primitive data type
+3.	To check the data type-type of
+4.	Primitive datatype :predefined ; we can store single values
+5.	Numbers : integers ,floats
+6.	String : stream of characters enclosed in quotes
+7.	------single, double , backtick quotes ;
+8.	Boolean : true or false
+9.	Null: empty value or no value
+10.	Undenifed --- declared variable with no value
+
+Numbers :
+EX :1, -1,-4,4
+ Strings: stream of characters enclosed in quotes
+
+It provide 
+
