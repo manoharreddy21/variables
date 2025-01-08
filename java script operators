@@ -1,0 +1,84 @@
+Java script operators:
+Arthmetic operators
++ ,-,*,
+Multiplication - *
+Division          -       /  (Q)
+Modulus operator      -     %(R)
+Exponential(raised to the power)   -  **
+++,
+--
+Assignment :
+Var student = “ramu”
++=
+-=
+/=
+%=
+
+let a=10
+        let b=5
+        b-=30
+        document.write(b)
+        
+       a+=30
+       document.write(a)
+
+        document.write(a,"<br>")
+
+        document.write(b,"<br>")
+
+        document.write(a%b,"<br>")
+
+        document.write(a/b,"<br>")
+
+        document.write(a*b)
+        console.log(a-b)
+        
+logical operators:
+and -  &&
+T and T=T
+Or - ||
+T or F=F
+Not   !
+o	et a=10
+•	let a=10
+•	let b=5
+•	document.write(a>b && b>11,"<br>")
+•	document.write(a>b || b>11,"<br>")
+•	document.write((a>b) && b>11,"<br>")
+
+
+relational operators(comparsion) values
+
+<,> ,> <=, >=, ==,===!,   
+The == operator is used to compare the values of two objects for equality. It checks if the values of the two objects are the same or not, but it does not compare the references of the objects. On the other hand, the === operator is used to compare the references of two objects.
+ let a=105
+        let b='105'
+        document.write(a!=b,"<br>")
+        document.write(a==b,"<br>")
+        document.write(a===b,"<br>")
+        document.write(a!=b,"<br>")
+
+        document.write(a>b && b>11,"<br>")
+        document.write(a>b || b>11,"<br>")
+        document.write((a>b) && b>11,"<br>")
+
+conditional operator: ternary operator(?)
+
+first evalutes an expression for atrue or false;
+syntax
+condition ? e1:e2
+example:
+let t=40
+        let r=(t>40) ? "tv-off":"tv-on"
+        console.log(r)
+
+window methods :
+alert()
+let name =prompt("enter your name")
+      alert(name)
+      
+      alert("hi manohar")
+      console.log(alert)
+prompt take input from user:
+
+
