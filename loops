@@ -1,0 +1,75 @@
+Loops
+Loops: Block of code  several times
+1.	For loop
+2.	For in
+3.	00000
+4.	11111
+5.	While 
+6.	Do while
+
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        for(let i=1;i<=5 ;i++){
+            console.log(i);
+            document.write(i,'<br>');
+        }
+        for(let i=2;i<=5 ;i=i+1){
+            console.log(i);
+            document.write(i,'<br>');
+            
+        }    
+
+       
+    </script>
+    
+    
+</body>
+</html>
+Output:
+1
+2
+3
+4
+5
+2
+3
+4
+5
+<!DOCTYPE html>
+<html lang="en"
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        for(let i=1;i<=5 ;i++){
+            console.log(i);
+            document.write(i,'<br>');
+        }
+        for(let i=2;i<=5 ;i=i+1){
+            console.log(i);
+            document.write(i,'<br>');
+            
+        }   
+        let j='manohar';
+        for(let i=2;i<=6 ;i++){
+        console.log(j,'<br>')
+        document.write(j,'<br>')
+        }
+        for(let)
+
+       
+    </script>
+    
+    
+</body>
+</html>
