@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en"
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //const a= "ramya"
+       // for(let i in a){
+      //      console .log(a[i]);
+      //      document.write(a[i],'<br>');
+      //  }
+        ///const b =["ramya","sam","kavya"]
+       // for(let i in b){
+       //     console.log(b[i]);
+       //     document.write(b[i],'<br>');
+      //  }
+        //
+            
+       // }
+        let i=2,n=8;
+        while(i<=n){
+            console.log(i+1);
+            document.write(i+1,'<br>');
+
+            i=i+2;
+        }
+       
+    </script>
+    
+    
+</body>
+</html>
