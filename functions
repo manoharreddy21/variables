@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en"
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //const a= "ramya"
+       // for(let i in a){
+      //      console .log(a[i]);
+      //      document.write(a[i],'<br>');
+      //  }
+        ///const b =["ramya","sam","kavya"]
+       // for(let i in b){
+       //     console.log(b[i]);
+       //     document.write(b[i],'<br>');
+      //  }
+        //
+            
+       // }
+        //
+       //
+      // let n=5;
+       //for(let i=1; i<=n; i++){
+       //// for(let j=1;j<=i;j++){
+     //     document.write("*")
+     //   }
+       // document.write("<br>")
+    //  }
+   // function greet(){
+   //   console.log("hi manohar");
+   // }
+   // greet();
+   ///function  g(name){
+   /// console.log("hello"+name)
+   //}
+   //let name=prompt("Enter your name?")
+   //g(name)
+   function add(a,b){
+    document.write(a+b);
+    console.log(a+b);
+
+   }
+   let a=prompt("emter the number")
+   let b=prompt("emter the number")
+   add(a,b);
+
+
+
+
+
+    
+       
+    </script>
+    
+    
+</body>
+</html>
+functions:
+/ function greet(){
+   //   console.log("hi manohar");
+   // }
+   // greet();
+   function  g(name){
+    console.log("hello"+name)
+   }
+   let name=prompt("Enter your name?")
+   g(name)
+
+
+function add(a,b){
+    document.write(a,b);
+
+   }
+   let a=10;
+   let b=15;
+   add(a,b);
+
+
+
