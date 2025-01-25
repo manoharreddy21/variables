@@ -1,0 +1,47 @@
+ //const a= "ramya"
+       // for(let i in a){
+      //      console .log(a[i]);
+      //      document.write(a[i],'<br>');
+      //  }
+        ///const b =["ramya","sam","kavya"]
+       // for(let i in b){
+       //     console.log(b[i]);
+       //     document.write(b[i],'<br>');
+      //  }
+        //
+            
+       // }
+        //
+       //
+      // let n=5;
+       //for(let i=1; i<=n; i++){
+       //// for(let j=1;j<=i;j++){
+     //     document.write("*")
+     //   }
+       // document.write("<br>")
+    //  }
+   // function greet(){
+   //   console.log("hi manohar");
+   // }
+   // greet();
+   ///function  g(name){
+   /// console.log("hello"+name)
+   //}
+   //let name=prompt("Enter your name?")
+   //g(name)
+   //
+  // let c=()=>{
+  //  console.log("hi venkat")
+  // }
+  // c();
+  //let x=(x,y)=>{
+   //console.log(x+y)
+ // }
+ // x(20,30)
+  //x(40,50)
+  function mainfunction (callback){
+    console.log("Hello");
+    callback();
+  }
+  let c=()=>{
+    console.log("i am manohar")
