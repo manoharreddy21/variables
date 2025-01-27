@@ -1,0 +1,43 @@
+Promise:
+A promise is a special java script object that represents the eventual completion an syrnchronous operation
+Three states
+Pending
+Fulfilled rejected
+
+let myPromise=new Promise((resolve,reject)=>{
+        let success=true;
+        if(success){
+            resolve("the operation was successfully");
+        }
+        else{
+            reject("the operation failed");
+        }
+        });
+        myPromise
+        .then(result=>{
+            console.log(result);
+        })
+        .catch(error=>{
+            console.log(error);
+        });
+
+
+
+
+
+Example :
+ 
+let delayedPromise = new Promise((resolve, reject) => {
+    setTimeout(() => {
+        resolve("Promise resolved after 2 seconds");
+    }, 2000); 
+});
+
+delayedPromise
+    .then(result => {
+        console.log(result); 
+    })
+    .catch(error => {
+        console.log("Error:", error);
+    });
+
