@@ -1,0 +1,42 @@
+import React from 'react';
+import './App.css';
+
+const Welcome = () => <h1 className='message'>Hello manohar</h1>
+
+function App() {
+  return (
+    <div className='App'>
+      <Welcome />
+    </div>
+  )
+}
+export default App;
+import React from 'react';
+import Greeting from'./Greeting'
+
+function App(){
+  const isLoggedIn =false;
+  return(
+    <div className='App'>
+      <Greeting isLoggedIn={isLoggedIn}/>
+    </div>
+  )
+}
+export default App;
+import React from'react';
+const FruitList=()=>{
+    const fruits=['apple','cherry','orange','Grapes']
+    return(
+        <div>
+            <h1>Fruits List</h1>
+            <ul>
+                {fruits.map((fruit,index)=>(
+                    <li key={index}></li>
+                ))}
+            </ul>
+        </div>
+    )
+
+}
+
+
