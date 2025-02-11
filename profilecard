@@ -1,0 +1,50 @@
+import React from "react";
+import ProfileCard from "./ProfileCard";
+
+const App = () => {
+  return (
+    <div>
+      <h1>User Profiles</h1>
+      <div className="profile-container">
+        <ProfileCard
+          name="ravikishore"
+          greeting="Hello! I love coding."
+          imageSrc="https://randomuser.me/api/portraits/women/1.jpg"
+        />
+        <ProfileCard
+          name="nihar"
+          greeting="Hey there! I enjoy photography."
+          imageSrc="https://randomuser.me/api/portraits/men/2.jpg"
+        />
+        <ProfileCard
+          name="manohar"
+          greeting="Hi! I’m a travel enthusiast."
+          imageSrc="https://randomuser.me/api/portraits/men/3.jpg"
+        />
+      </div>
+    </div>
+  );
+};
+
+export default App.profile-card {
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 15px;
+  text-align: center;
+  width: 200px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.profile-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
