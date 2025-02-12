@@ -1,0 +1,47 @@
+import React from "react";
+
+const ChildB = ({ count, increment }) => {
+  return (
+    <div>
+      <h2>Child B component to rendering</h2>
+      <p>Count: {count}</p>
+      <button onClick={increment}>Increment from Child B</button>
+    </div>
+  );
+};
+
+export default ChildB;
+import React, { useState } from "react";
+import ChildA from "./components/childA";
+import ChildB from "./components/childB";
+import "./App.css";
+
+const Parent = () => {
+  const [count, setCount] = useState(0);
+
+  const increment = () => {
+    setCount((prevCount) => prevCount + 1);
+  };
+
+  return (
+    <div>
+      <h1>Parent Component</h1>
+      <ChildA count={count} increment={increment} />
+      <ChildB count={count} increment={increment} />
+    </div>
+  );
+};
+
+export default Parent;import React from "react";
+
+const ChildA = ({ count, increment }) => {
+  return (
+    <div>
+      <h2>Child A component to rendering</h2>
+      <p>Count: {count}</p>
+      <button onClick={increment}>Increment from Child A</button>
+    </div>
+  );
+};
+
+export default ChildA;
