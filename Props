@@ -1,0 +1,40 @@
+function App(){
+    const data="I AN CVENKATA"
+    return(
+        <div>
+            <User1 data={data}/>
+        </div>
+    );
+};
+function User1({data}){
+    return(
+        <div>
+            <User2 data={data}/>
+        </div>
+    );
+};
+
+function User2({data}){
+    return(
+        <div>
+            <User3 data={data}/>
+        </div>
+    );
+};
+function User3({data}){
+    return(
+        <div>
+            <User4 data={data}/>
+        </div>
+    );
+};
+
+function User4({data}){
+    return(
+        <div>
+             {data}
+        </div>
+    );
+};
+
+export default App;
